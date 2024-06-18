@@ -21,3 +21,5 @@ lazy val `scala3-examples` = (project in file("scala3-examples")).settings(
 //fork in run := true
 
 ThisBuild / semanticdbEnabled := true
+
+ThisBuild/ usePipelining := true
