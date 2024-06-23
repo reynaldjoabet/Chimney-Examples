@@ -6,7 +6,7 @@ version := "1.0"
 val chimney = "io.scalaland" %% "chimney" % "0.8.4"
 
 lazy val `scala2-examples` = (project in file("scala2-examples")).settings(
-  scalaVersion         := "2.13.12",
+  scalaVersion         := "2.13.13",
   libraryDependencies ++= Seq(chimney)
 )
 
@@ -22,4 +22,4 @@ lazy val `scala3-examples` = (project in file("scala3-examples")).settings(
 
 ThisBuild / semanticdbEnabled := true
 
-ThisBuild/ usePipelining := true
+ThisBuild / usePipelining := true
