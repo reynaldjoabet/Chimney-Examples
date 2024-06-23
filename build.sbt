@@ -6,7 +6,7 @@ version := "1.0"
 val chimney = "io.scalaland" %% "chimney" % "0.8.5"
 
 lazy val `scala2-examples` = (project in file("scala2-examples")).settings(
-  scalaVersion         := "2.13.12",
+  scalaVersion         := "2.13.13",
   libraryDependencies ++= Seq(chimney)
 )
 
