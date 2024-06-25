@@ -3,7 +3,7 @@
 name    := "Chimney-Examples"
 version := "1.0"
 
-val chimney = "io.scalaland" %% "chimney" % "0.8.5"
+val chimney = "io.scalaland" %% "chimney" % "1.1.0"
 
 lazy val `scala2-examples` = (project in file("scala2-examples")).settings(
   scalaVersion         := "2.13.13",
